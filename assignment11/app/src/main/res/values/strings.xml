@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name"> Inova Android Training Pharos 2020</string>
+    <string name="take_camera_permissions">Take camera Permissions</string>
+    <string name="start_camera_intent">Start Camera </string>
+    <string name="start_location_listener">Start Location Listener</string>
+    <string name="my_image_description">my image description</string>
+
+
+</resources>

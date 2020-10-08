@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/profile_image"
+        android:contentDescription="@string/my_image_description"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick photo from gallery"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:padding="30dp"
+        android:textStyle="bold"
+        android:elevation="2dp"
+        android:id="@+id/btn"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick my location on map"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:padding="30dp"
+        android:textStyle="bold"
+        android:elevation="2dp"
+        android:id="@+id/btnMap"/>
+
+</LinearLayout>
